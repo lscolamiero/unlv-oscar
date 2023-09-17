@@ -44,6 +44,26 @@ a {
     text-decoration: none;
 }
 
+/* footer css starts here */
+
+.main-footer-section {
+    outline: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-footer {
+    outline: 2px solid green;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+}
+
+.main-footer-section img {
+    width: 100%;
+}
+
+/* footer css ends here */
 
 @media (min-width: 600px) {
     .card-image,.card-content {
