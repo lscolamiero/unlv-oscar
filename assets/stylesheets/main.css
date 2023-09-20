@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 
+/* header starts here */
+
+.test {
+    outline: 4px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.list-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-img {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header ends here */
+
+
 main {
     /* outline: 4px solid red; */
     width: 70vw;
